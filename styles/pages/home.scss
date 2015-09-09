@@ -1,0 +1,204 @@
+body {
+	background: $body-background;
+	font-family: 'Lato', sans-serif !important;
+}
+
+button.btn,
+a.btn {
+	border-radius: 3px !important;
+}
+
+
+h1 {
+	color: $red;
+	font-weight: bold;
+}
+
+#home {
+	padding-top: 30px;
+	padding-bottom: 10px;
+}
+
+h1 ~ hr {
+	padding-bottom: 20px;
+}
+
+a {
+	color: $red;
+
+	&:hover {
+		color: darken($red, 10%);
+	}
+}
+
+.wrapper {
+	margin-bottom: 20px;
+	padding: 30px;
+	border-radius: 3px;
+	background-color: $content-background;
+}
+@media (max-width: 767px) {
+	.wrapper {
+		// padding: 10px;
+	}
+
+
+}
+
+
+.footer,
+.navbar {
+	color: $dark-bg-text;
+}
+
+.navbar {
+	border-radius: 0;
+	text-transform: uppercase;
+
+	ul {
+		margin-top: 20px;
+
+		.dropdown-menu {
+
+			.dropdown-heading {
+				padding-left: 21px;
+			}
+		}
+	}
+}
+
+.navbar-brand {
+	height: initial;
+	padding-bottom: 10px;
+
+	img {
+		display: inline-block;
+	}
+}
+
+
+.nav-logo {
+	height: 65px;
+	padding-left: 20px;
+	padding-right: 20px;
+}
+
+a span.glyphicon {
+	padding-right: 5px;
+}
+
+.card {
+	margin-top: 20px;
+	padding: 20px;
+	background: lighten($content-background, 10%);
+
+	&> h3,
+	&>h4 {
+		margin-top: 0;
+	}
+
+	&.location {
+		max-width: 300px;
+		margin-right: 5px;
+	}
+}
+
+.card.locations {
+	ul {
+		padding-left: 35px;
+		list-style: none;
+	}
+
+	.glyphicon {
+		font-size: 1.4em;
+		padding-right: 10px;
+	}
+}
+
+
+.home-images {
+	// background: lighten($content-background, 10%);
+	img {
+		width: 253px;
+	}
+
+	.col-xs-6 {
+		padding: 5px;
+	}
+}
+
+
+
+.footer {
+	padding: 20px;
+	background: $black;
+
+
+	address {
+		padding-top: 15px;
+	}
+}
+
+@media (max-width: 767px) {
+	.footer .text-right {
+		padding-bottom: 30px;
+		text-align: left;
+
+		a.btn {
+			width: 100%;
+		}
+	}
+
+
+}
+
+.footer-move {
+	display: inline-block;
+	padding-top: 20px;
+	padding-right: 20px;
+	font-size: 1.4em;
+	vertical-align: middle;
+}
+
+.footer-logo {
+	max-width: 150px;
+}
+
+
+
+//modal stuff
+.modal-dialog {
+	border-radius: 3px;
+}
+.modal-header {
+	border-bottom: none;
+	// background: $black;
+}
+
+.modal-title {
+	color: $red;
+	// text-transform: uppercase;
+	text-align: center;
+}
+
+.modal-body {
+	padding: 30px;
+
+	h3 {
+		margin-top: 0;
+	}
+}
+.modal-footer {
+	border-top: none;
+	// background: $black;
+}
+
+
+
+
+
+/////////////////////////////////
+//Media Queries
+///////////////////////////////
+@media (max-width: 767px) {
+}

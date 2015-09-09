@@ -1,0 +1,120 @@
+.btn-full {
+  width: 100%; }
+
+body {
+  background: #C0C0C0;
+  font-family: 'Lato', sans-serif !important; }
+
+button.btn,
+a.btn {
+  border-radius: 3px !important; }
+
+h1 {
+  color: #C4402B;
+  font-weight: bold; }
+
+#home {
+  padding-top: 30px;
+  padding-bottom: 10px; }
+
+h1 ~ hr {
+  padding-bottom: 20px; }
+
+a {
+  color: #C4402B; }
+  a:hover {
+    color: #9a3222; }
+
+.wrapper {
+  margin-bottom: 20px;
+  padding: 30px;
+  border-radius: 3px;
+  background-color: #fafafa; }
+
+.footer,
+.navbar {
+  color: #CCCCCC; }
+
+.navbar {
+  border-radius: 0;
+  text-transform: uppercase; }
+  .navbar ul {
+    margin-top: 20px; }
+    .navbar ul .dropdown-menu .dropdown-heading {
+      padding-left: 21px; }
+
+.navbar-brand {
+  height: initial;
+  padding-bottom: 10px; }
+  .navbar-brand img {
+    display: inline-block; }
+
+.nav-logo {
+  height: 65px;
+  padding-left: 20px;
+  padding-right: 20px; }
+
+a span.glyphicon {
+  padding-right: 5px; }
+
+.card {
+  margin-top: 20px;
+  padding: 20px;
+  background: white; }
+  .card > h3, .card > h4 {
+    margin-top: 0; }
+  .card.location {
+    max-width: 300px;
+    margin-right: 5px; }
+
+.card.locations ul {
+  padding-left: 35px;
+  list-style: none; }
+.card.locations .glyphicon {
+  font-size: 1.4em;
+  padding-right: 10px; }
+
+.home-images img {
+  width: 253px; }
+.home-images .col-xs-6 {
+  padding: 5px; }
+
+.footer {
+  padding: 20px;
+  background: #101010; }
+  .footer address {
+    padding-top: 15px; }
+
+@media (max-width: 767px) {
+  .footer .text-right {
+    padding-bottom: 30px;
+    text-align: left; }
+    .footer .text-right a.btn {
+      width: 100%; } }
+.footer-move {
+  display: inline-block;
+  padding-top: 20px;
+  padding-right: 20px;
+  font-size: 1.4em;
+  vertical-align: middle; }
+
+.footer-logo {
+  max-width: 150px; }
+
+.modal-dialog {
+  border-radius: 3px; }
+
+.modal-header {
+  border-bottom: none; }
+
+.modal-title {
+  color: #C4402B;
+  text-align: center; }
+
+.modal-body {
+  padding: 30px; }
+  .modal-body h3 {
+    margin-top: 0; }
+
+.modal-footer {
+  border-top: none; }
