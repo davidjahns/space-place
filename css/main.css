@@ -64,8 +64,12 @@ a span.glyphicon {
   .card > h3, .card > h4 {
     margin-top: 0; }
   .card.location {
-    max-width: 300px;
     margin-right: 5px; }
+    .card.location img {
+      width: 100%;
+      margin-bottom: 10px; }
+  .card.sizes img {
+    width: 100%; }
 
 .card.locations ul {
   padding-left: 35px;
@@ -118,3 +122,37 @@ a span.glyphicon {
 
 .modal-footer {
   border-top: none; }
+
+#locations iframe {
+  border: none; }
+
+.location-group {
+  padding-bottom: 30px; }
+
+.table-striped > tbody > tr:nth-of-type(odd) {
+  background-color: #F3F3F3; }
+
+thead th {
+  text-transform: uppercase; }
+
+#payment h2 {
+  font-size: 1.3em;
+  font-weight: bold; }
+
+@media (max-width: 767px) {
+  .wrapper {
+    padding: 20px; }
+
+  #locations h3 {
+    font-size: 1.4em; }
+
+  #sizes h2 {
+    font-size: 1.6em; }
+  #sizes h3 {
+    font-size: 1.4em; }
+
+  #locations h2 {
+    font-size: 1.6em; }
+  #locations iframe {
+    height: 300px;
+    margin-bottom: 20px; } }
